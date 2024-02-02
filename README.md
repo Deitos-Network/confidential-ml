@@ -21,7 +21,7 @@ docker build -t img-fhe-examples-poc .
 
 Create a Docker container with the image built
 ```console
-docker run  --name jupyter-tf-encrypted -p 10001:8888 -v .\notebook:/home/jovyan/work img-fhe-examples-poc
+docker run  --name jupyter-fhe-exampless -p 10001:8888 -v .\notebook:/home/jovyan/work img-fhe-examples-poc
 ```
 
 Access the Jupyter console with Web Browser
