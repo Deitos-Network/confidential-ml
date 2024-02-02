@@ -1,6 +1,6 @@
 #  Confidential-ML 
 
-The following project highlights the implementation of an AI Algorithm using Full Homomorphic Encryption (FHE), Using diffents Libraries based en FHE, by example, TenSEAL, Crytpen, tf-encrypted, we show a process of training a Linear Regression with an approach focused on safeguarding data privacy and confidentiality. This approach is aligned with Deitos Network's vision, proposing a secure distribution of data in public infrastructures dedicated to AI training and deployment.
+The following project highlights the implementation of an AI Algorithm using Full Homomorphic Encryption (FHE), Using different Libraries based on FHE, for example, TenSEAL, Crytpen, and tf-encrypted, we show a process of training a Linear Regression with an approach focused on safeguarding data privacy and confidentiality. This approach is aligned with Deitos Network's vision, proposing a secure distribution of data in public infrastructures dedicated to AI training and deployment.
 
 ##  Run 
 
