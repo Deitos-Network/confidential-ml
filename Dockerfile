@@ -25,8 +25,13 @@ USER $USERNAME
 RUN pip install -U pip 
 RUN pip install --no-cache-dir \
     tensorflow==2.9.1 \
-    tf-encrypted \
-    pandas 
+    pandas \
+    omegaconf onnx pandas pyyaml tensorboard  future scipy seaborn torch \
+    scikit-learn 
+
+RUN pip install crypten --no-deps
+RUN pip install tenseal 
+RUN pip install tf-encrypted 
 
 COPY notebook /home/jovyan/work
 

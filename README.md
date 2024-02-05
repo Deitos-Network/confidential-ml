@@ -4,16 +4,6 @@ The following project highlights the implementation of an AI Algorithm using Ful
 
 ##  Run 
 
-Clone the repository con git command 
-```console
-git clone https://github.com/Deitos-Network/confidential-ml.git
-```
-
-Enter in the repo files
-```console
-cd confidential-ml
-```
-
 Build a Docker image for POC using fhe-examples-poc
 ```console
 docker build -t img-confidential-ml .
