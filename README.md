@@ -1,6 +1,6 @@
 #  Confidential-ML 
 
-The following project highlights the implementation of an AI Algorithm using Full Homomorphic Encryption (FHE), Using different Libraries based on FHE, for example, TenSEAL, Crypten, and tf-encrypted, we show a process of training a Linear Regression with an approach focused on safeguarding data privacy and confidentiality. This approach is aligned with Deitos Network's vision, proposing a secure distribution of data in public infrastructures dedicated to AI training and deployment.
+The following project highlights the implementation of an AI Algorithm using Full Homomorphic Encryption (FHE), Using the library Crypten, we show a process of training a Linear Regression with an approach focused on safeguarding data privacy and confidentiality. This approach is aligned with Deitos Network's vision, proposing a secure distribution of data in public infrastructures dedicated to AI training and deployment.
 
 ##  Run 
 
@@ -24,7 +24,6 @@ Run the tf-encrypted notebook
 ## Examples
 The project include a set of examples regarding to Crypten libs to advance in train and deploy models of AI, assuring data privacity.
 
-![crypten-save-encrypted-data.ipynb](notebook/crypten-save-encrypted-data.ipynb) : Show the process to download a sample dataset IRIS provided by SciKit Learn Library, encrypt data in FHE mode and save it in disk.
- 
-![crypten-load-encrypted-data.ipynb](notebook/crypten-load-encrypted-data.ipynb) : Show the process to load a sample dataset encrypted in FHE mode to train a Lineal Regression algorithms provided by Scikit Learn.
+[crypten-save-encrypted-data.ipynb](notebook/crypten-save-encrypted-data.ipynb) : Shown the process to download a sample dataset named IRIS that is provided by SciKit Learn Library, encrypted data in FHE mode and save it in disk.
 
+[crypten-load-encrypted-data.ipynb](notebook/crypten-load-encrypted-data.ipynb) : Shown the process to load a sample dataset encrypted in FHE mode and use it to train a Lineal Regression algorithms provided by Scikit Learn.
