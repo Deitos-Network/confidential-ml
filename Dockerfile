@@ -24,7 +24,7 @@ USER $USERNAME
 
 RUN pip install -U pip 
 RUN pip install --no-cache-dir \
-    tensorflow==2.9.1 \
+    tensorflow \
     pandas \
     omegaconf onnx pandas pyyaml tensorboard  future scipy seaborn torch \
     scikit-learn 

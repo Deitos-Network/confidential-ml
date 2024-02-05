@@ -20,3 +20,11 @@ Access the Jupyter console with Web Browser
 
 Run the tf-encrypted notebook
 ![alt](assets/tf-encrypted.png)
+
+## Examples
+The project include a set of examples regarding to Crypten libs to advance in train and deploy models of AI, assuring data privacity.
+
+![alt](notebook/crypten-save-encrypted-data.ipynb) : Show the process to download a sample dataset IRIS provided by SciKit Learn Library, encrypt data in FHE mode and save it in disk.
+ 
+![alt](notebook/crypten-load-encrypted-data.ipynb) : Show the process to load a sample dataset encrypted in FHE mode to train a Lineal Regression algorithms provided by Scikit Learn.
+
