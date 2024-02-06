@@ -29,9 +29,9 @@ RUN pip install --no-cache-dir \
     omegaconf onnx pandas pyyaml tensorboard  future scipy seaborn torch \
     scikit-learn 
 
-RUN pip install crypten --no-deps
 # RUN pip install tenseal 
 # RUN pip install tf-encrypted 
+RUN pip install crypten --no-deps
 
 COPY notebook /home/jovyan/work
 
