@@ -13,10 +13,16 @@ Create a Docker container with the image buislt
 ```console
 docker run  --name jupyter-confidential-ml -p 10001:8888 -v notebook:/home/jovyan/work img-confidential-ml
 ```
+docker rm jupyter-confidential-ml
+docker image rm img-confidential-ml
+docker build -t img-confidential-ml .
+docker run  --name jupyter-confidential-ml -p 10001:8888 img-confidential-ml
+
+
 
 Access the Jupyter console with Web Browser
 ![alt](assets/jupyter-console.png)
-
+ 
 
 Run the tf-encrypted notebook
 ![alt](assets/tf-encrypted.png)

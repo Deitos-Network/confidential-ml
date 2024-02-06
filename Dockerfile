@@ -33,6 +33,6 @@ RUN pip install --no-cache-dir \
 # RUN pip install tf-encrypted 
 RUN pip install crypten --no-deps
 
-COPY notebook /home/jovyan/work
+ADD notebook /home/jovyan/work
 
 CMD ["/home/jovyan/run.sh"]
