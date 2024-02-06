@@ -30,8 +30,8 @@ RUN pip install --no-cache-dir \
     scikit-learn 
 
 RUN pip install crypten --no-deps
-RUN pip install tenseal 
-RUN pip install tf-encrypted 
+# RUN pip install tenseal 
+# RUN pip install tf-encrypted 
 
 COPY notebook /home/jovyan/work
 

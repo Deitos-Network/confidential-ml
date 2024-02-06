@@ -11,7 +11,7 @@ docker build -t img-confidential-ml .
 
 Create a Docker container with the image buislt
 ```console
-docker run  --name jupyter-confidential-ml -p 10001:8888 -v .\notebook:/home/jovyan/work img-confidential-ml
+docker run  --name jupyter-confidential-ml -p 10001:8888 -v notebook:/home/jovyan/work img-confidential-ml
 ```
 
 Access the Jupyter console with Web Browser
