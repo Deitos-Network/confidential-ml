@@ -16,6 +16,7 @@ RUN apt-get -qq update  \
       libc6-dev 
 
 ARG USERNAME=jovyan
+ARG GROUP=jovyan
 
 COPY run.sh /home/jovyan/run.sh
 RUN sudo chmod 755 /home/jovyan/run.sh
@@ -33,6 +34,6 @@ RUN pip install --no-cache-dir \
 # RUN pip install tf-encrypted 
 RUN pip install crypten --no-deps
 
-ADD notebook /home/jovyan/work
+ADD --chown=$USERNAME:$GROUP notebook /home/jovyan/work
 
 CMD ["/home/jovyan/run.sh"]
