@@ -39,3 +39,5 @@ The example provided is designed in two steps, a first step that has to do with 
 
 ![Step2 - Load Encrypted Dataset and Train Algorithm](assets/crypten-2.png)
 
+
+> Note: In the illustration of the example's execution, it becomes evident that the inference results for the model trained with encrypted data exhibit lower precision compared to the model trained with data in a flat format. This discrepancy underscores the challenge of managing the inherent noise introduced into the model due to the utilization of an FHE (Fully Homomorphic Encryption) scheme during training with encrypted data. 
